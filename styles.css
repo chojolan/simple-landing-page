@@ -119,13 +119,18 @@ body {
     padding: 50px;
 }
 
-.rectangle {
-    background-color: #3882F6;
-    height: 70px;
-    width: 900px;
-    border: 1px solid;
-    border-radius: 4px;
-    padding: 25px;
+.bottom-text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 20px;
 }
 
 .footer {
@@ -178,8 +183,17 @@ body {
     padding-top: 25px;
 }
 
+.rectangle {
+    background-color: #3882F6;
+    height: 70px;
+    width: 900px;
+    border: 1px solid #3882F6;
+    border-radius: 4px;
+    padding: 25px;
+}
+
 .rectangle-header {
-    font-weight: 400;
+    font-weight: 800;
 }
 
 a {
